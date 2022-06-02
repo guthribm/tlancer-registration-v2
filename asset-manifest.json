@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tlancer-registration-v2/static/css/main.dee0c4d4.css",
-    "main.js": "/tlancer-registration-v2/static/js/main.5f03bbf8.js",
+    "main.css": "/tlancer-registration-v2/static/css/main.92dfcdb6.css",
+    "main.js": "/tlancer-registration-v2/static/js/main.7c3814d0.js",
     "static/media/HeroFullImage.webp": "/tlancer-registration-v2/static/media/HeroFullImage.751fc0a424abf144f145.webp",
+    "static/media/student-img.webp": "/tlancer-registration-v2/static/media/student-img.458fcac560c6f2e67c22.webp",
+    "static/media/instructor.webp": "/tlancer-registration-v2/static/media/instructor.11d3d7f15156e394c4ec.webp",
     "static/media/contact-img.webp": "/tlancer-registration-v2/static/media/contact-img.fadd89d5b2a4719bbb26.webp",
-    "static/media/instructor.webp": "/tlancer-registration-v2/static/media/instructor.65621e49c5bd1ee01986.webp",
-    "static/media/student-img.webp": "/tlancer-registration-v2/static/media/student-img.367c3bc857d290e3df12.webp",
     "static/media/blueSuitMan.webp": "/tlancer-registration-v2/static/media/blueSuitMan.604def3426f8dde022dc.webp",
     "static/media/manHoldingRedFolder.webp": "/tlancer-registration-v2/static/media/manHoldingRedFolder.b3b120d0fde8fcc844b1.webp",
     "index.html": "/tlancer-registration-v2/index.html",
-    "main.dee0c4d4.css.map": "/tlancer-registration-v2/static/css/main.dee0c4d4.css.map",
-    "main.5f03bbf8.js.map": "/tlancer-registration-v2/static/js/main.5f03bbf8.js.map"
+    "main.92dfcdb6.css.map": "/tlancer-registration-v2/static/css/main.92dfcdb6.css.map",
+    "main.7c3814d0.js.map": "/tlancer-registration-v2/static/js/main.7c3814d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.dee0c4d4.css",
-    "static/js/main.5f03bbf8.js"
+    "static/css/main.92dfcdb6.css",
+    "static/js/main.7c3814d0.js"
   ]
 }
