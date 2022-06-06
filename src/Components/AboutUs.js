@@ -9,19 +9,8 @@ const About = () => {
                 font-family: 'Inter', san-serif;
             }
             
-            @media (min-width: 768px){
-              #about-img {
-                width: 40%;
-            }
-            }
-            @media (min-width: 1200px){
-              #about-img {
-                width: 30%;
-            }
-            }            
-            {/* .large-txt {
-                font-weight: 700;
-            } */}
+          
+            
         `}</style>
       <section id="about" className="container-fluid px-0 p-md-5 bg-white">
         <div id="about-target" className="link-target"></div>

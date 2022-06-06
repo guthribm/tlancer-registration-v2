@@ -78,22 +78,9 @@ const Student = (props) => {
                 border: none;
                 outline: none;
             }
-            #submit {
-              width: 100%!important;
-            }
-                       
-            .tutor-btn {
-                background: var(--main-green);
-                width: 100%!important;
-            }
             
 
-            @media (min-width: 992px) {
-              #student-green-deco {
-                display: inline-block!important;
-                
-              }
-            }
+              
            
             `}</style>
 
@@ -118,7 +105,7 @@ const Student = (props) => {
             viewBox="0 0 123 133"
             fill="none"
             id="student-green-deco"
-            className="d-none position-absolute"
+            className="d-none d-lg-block position-absolute"
           >
             <path
               fillRule="evenodd"

@@ -5,8 +5,8 @@ const ContactUs = () => {
       <style>{`
         
         .map {
-          border: 1px solid var(--main-green);
-          border-radius: 8px
+          border: 2px solid var(--main-green);
+          border-radius: 16px
         }
 
     `}</style>

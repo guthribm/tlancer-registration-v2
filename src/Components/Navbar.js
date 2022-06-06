@@ -15,7 +15,6 @@ const NavbarMain = () => {
             }
 
             .link-target {
-              background: blue;
               position: relative;
               bottom: 7rem;
             }
@@ -106,9 +105,7 @@ const NavbarMain = () => {
             }
           
             @media (max-width: 768px) {                            
-              .mobile {
-                width: 100%!important;
-              }
+              
               .navbar-collapse {
                 padding: 1rem;
               }             
@@ -118,102 +115,7 @@ const NavbarMain = () => {
             {/* ######## END MEDIA QUERIES ########*/}
 
 
-            {/* _______ HOVER EFFECTS TEST SECTION ______ */}
-
-
-            {/* __ START HOVER ONE __ */}
-            .style-btn-one {
-              position: relative;	
-              padding-left:.75rem!important;
-              padding-right:.75rem!important;
-              color: black;
-              transition: all 300ms cubic-bezier(0.77, 0, 0.175, 1);	
-              cursor: pointer;
-              user-select: none;
-            }
-
-            .style-btn-one:before, .style-btn-one:after {
-              content: '';
-              position: absolute;	
-              transition: inherit;
-              z-index: -1;
-            }
-
-            .style-btn-one:hover {
-              color: white;
-              transition-delay: .3s;
-              transform: translateY(-3px);
-              box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
-              text-shadow: 0px 0px 4px rgba(0,0,0,0.6);
-            }
-
-            .style-btn-one:hover:before {
-              transition-delay: 0s;
-            }
-
-            .style-btn-one:hover:after {
-              background: var(--main-green);
-              transition-delay: .3s;
-            }
-
-            .style-btn-one:before {
-              top: 0;
-              left: 50%;
-              height: 100%;
-              width: 0;
-              border: 1px solid var(--main-green);
-              border-left: 0;
-              border-right: 0;
-            }
-
-            .style-btn-one:after {
-              bottom: 0;
-              left: 0;
-              height: 0;
-              width: 100%;
-              background: white;
-            }
-
-            .style-btn-one:hover:before {
-              left: 0;
-	            width: 100%;    
-            }
-
-            .style-btn-one:hover:after {
-              top: 0;
-              height: 100%;
-            }
             
-
-
-            {/* __ END HOVER ONE __ */}
-
-            
-            {/* __ START HOVER TWO __ */}
-            
-            {/* __ END HOVER TWO __ */}
-            
-            
-            .student-hover:hover, .student-hover:focus {
-              color: var(--main-green);
-              transition: .5s;
-              transform: perspective(25rem);
-            }          
-            .student-hover::after {
-              content: "";
-              width: 0px;
-              height: 3px;
-              display: block;
-              transform: translateY(2rem) translateX(-3rem); 
-              transition: .2s ease-out;
-              background: transparent;                         
-            }    
-            .student-hover:hover::after {
-              width: 100%;              
-              height: 3px;              
-              transform: rotate(180deg);              
-              background: var(--main-green-hover)
-            }
 
             `}
       </style>

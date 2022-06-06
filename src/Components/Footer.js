@@ -5,10 +5,6 @@ const Footer = () => {
         {`
        
         
-        .foot {
-          width: 100vw!important;
-
-        }
         .fa-brands {
           transition: .3s ease-out all;  
           cursor: pointer;        

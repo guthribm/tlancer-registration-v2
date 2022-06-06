@@ -8,17 +8,7 @@ const Mission = () => {
               font-weight: 400;
                 font-family: 'Inter', san-serif;
             }
-            
-            @media (min-width: 768px){
-              #mission-img {
-                width: 40%;
-            }
-            }
-            @media (min-width: 1200px){
-              #mission-img {
-                width: 30%;
-            }
-            }
+
             
             
         `}</style>

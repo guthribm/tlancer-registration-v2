@@ -21,7 +21,7 @@ const Modal = (props) => {
         }}
         className="thank-you container-fluid m-0 p-5"
       >
-        <div className="row b-5">
+        <div className="row">
           {props.isLoading ? (
             <div className="col bg-white p-5 rounded text-center">
               <h1>Submitting...</h1>
