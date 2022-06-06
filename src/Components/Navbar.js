@@ -242,12 +242,13 @@ const NavbarMain = () => {
             <ul className="nav navbar-nav w-100 justify-content-end">
               <li className="nav-item mb-md-0">
                 <a
-                  className="px-1 nav-link style-btn-one mx-0 mx-lg-1 mx-xl-2"
-                  href="#home-target"
+                  className="px-1 nav-link nav-link-hover mx-0 mx-lg-1 mx-xl-2"
+                  href="#hero-target"
                 >
                   Home
                 </a>
               </li>
+
               <li className="nav-item mb-md-0">
                 <a
                   className="px-1 nav-link nav-link-hover mx-0 mx-lg-1 mx-xl-2"
@@ -269,18 +270,18 @@ const NavbarMain = () => {
               <li className="nav-item mb-md-0">
                 <a
                   className="px-1 nav-link nav-link-hover mx-0 mx-lg-1 mx-xl-2 text-nowrap"
-                  href="#about-target"
+                  href="#mission-target"
                 >
-                  About Us
+                  Our Mission
                 </a>
               </li>
 
               <li className="nav-item mb-md-0">
                 <a
                   className="px-1 nav-link nav-link-hover mx-0 mx-lg-1 mx-xl-2 text-nowrap"
-                  href="#mission-target"
+                  href="#about-target"
                 >
-                  Our Mission
+                  About Us
                 </a>
               </li>
 

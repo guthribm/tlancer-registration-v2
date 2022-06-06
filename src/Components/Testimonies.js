@@ -8,39 +8,39 @@ const Testimonies = () => {
     }
 
     #card1 {
-      box-shadow: 0px 0px 50px 15px rgba(253, 78, 93,0.4);
+      box-shadow: 0px 0px 30px 15px rgba(253, 78, 93,0.3);
       transition: .4s all ease-in-out;
     }
     #card1:hover {
-      transform: scale(1.08);
-      box-shadow: 0px 0px 2px 2px rgba(253, 78, 93,1);
+      transform: scale(1.05);
+      box-shadow: 0px 0px 0px 3px rgba(253, 78, 93,1);
     }
 
     #card2 {
-      box-shadow: 0px 0px 50px 15px rgba(14, 205, 136, 0.4);
+      box-shadow: 0px 0px 30px 15px rgba(14, 205, 136, 0.3);
       transition: .4s all ease-in-out;
     }
     #card2:hover {
-      transform: scale(1.08);
-      box-shadow: 0px 0px 2px 2px rgba(14, 205, 136, 1);
+      transform: scale(1.05);
+      box-shadow: 0px 0px 0px 3px rgba(14, 205, 136, 1);
     }
 
     #card3 {
-      box-shadow: 0px 0px 50px 15px rgba(49, 126, 246, 0.4);
+      box-shadow: 0px 0px 30px 15px rgba(49, 126, 246, 0.3);
       transition: .4s all ease-in-out;
     }
     #card3:hover {
-      transform: scale(1.08);
-      box-shadow: 0px 0px 2px 2px rgba(49, 126, 246, 1);
+      transform: scale(1.05);
+      box-shadow: 0px 0px 0px 3px rgba(49, 126, 246, 1);
     }
 
     #card4 {
-      box-shadow: 0px 0px 50px 15px rgba(255, 215, 0, 0.4);
+      box-shadow: 0px 0px 30px 15px rgba(255, 215, 0, 0.3);
       transition: .4s all ease-in-out;
     }
     #card4:hover {
-      transform: scale(1.08);
-      box-shadow: 0px 0px 2px 2px rgba(255, 215, 0, 1);
+      transform: scale(1.05);
+      box-shadow: 0px 0px 0px 3px rgba(255, 215, 0, 1);
     }
 
 
@@ -48,7 +48,7 @@ const Testimonies = () => {
     .blue-quote {
         position: relative;
         top: 1rem;
-        right: 1.75rem;
+        right: 1.25rem;
         color: #2EC5CE;
         opacity: .5;
     }
@@ -78,19 +78,17 @@ const Testimonies = () => {
         <div className="container p-md-5 bg-white">
           {/* ______ Heading Row */}
           <div className="row mb-5">
-            <div className="col text-center col-md-10 mx-auto mb-1 d-flex align-items-center justify-content-evenly">
+            <div className="col text-center col-md-10 mx-auto mb-5 d-flex align-items-center justify-content-evenly">
               <i className="fa-solid fa-quote-left red-quote"></i>
-              <h2 className="h1 my-auto fw-bold">
-                Testimonies from Our Customers
-              </h2>
+              <h2 className="h1 fw-bold">Testimonies from Our Customers</h2>
               <i className="fa-solid fa-quote-right red-quote"></i>
             </div>
           </div>
           {/* ______ Top Quote Row*/}
-          <div className="row justify-content-evenly">
+          <div className="row justify-content-evenly g-5">
             {/* ______ Card 1*/}
-            <div className="col col-md-4 my-5">
-              <div id="card1" className="border-0 py-5 ps-5 pe-4 card ">
+            <div className="col col-lg-4 my-5">
+              <div id="card1" className="border-0 mx-1 py-5 ps-5 pe-4 card ">
                 <i className="fa-solid fa-quote-left blue-quote mt-5"></i>
                 <div className="card-text">
                   <p className="lh-lg text-black fw-bold text-opacity-75 mb-4">
@@ -107,10 +105,10 @@ const Testimonies = () => {
               </div>
             </div>
             {/* ______ Card 2*/}
-            <div className="col col-lg-5 my-5">
+            <div className="col col-lg-5 mt-lg-auto my-5">
               <div
                 id="card2"
-                className="border-0 pt-5 pb-4 ps-5 pe-4 my-3 card "
+                className="border-0 mx-1 py-5 ps-5 pe-4 my-lg-3 card "
               >
                 <i className="fa-solid fa-quote-left blue-quote"></i>
                 <div className="card-text">
@@ -130,12 +128,12 @@ const Testimonies = () => {
           </div>
 
           {/* ______ Bottom Quote Row*/}
-          <div className="row justify-content-evenly">
+          <div className="row justify-content-evenly g-5 mt-0">
             {/* ______ Card 3*/}
             <div className="col col-lg-5 my-5 order-2 order-md-1">
               <div
                 id="card3"
-                className="border-0 pt-5 pb-4 ps-5 pe-4 my-3 card "
+                className="border-0 mx-1 py-5 ps-5 pe-4 my-lg-3 card"
               >
                 <i className="fa-solid fa-quote-left blue-quote"></i>
                 <div className="card-text">
@@ -153,8 +151,8 @@ const Testimonies = () => {
               </div>
             </div>
             {/* ______ Card 4*/}
-            <div className="col col-md-4 order-1 order-md-2 my-5">
-              <div id="card4" className="border-0 py-5 ps-5 pe-4 card ">
+            <div className="col col-lg-4 order-1 order-md-2 my-5">
+              <div id="card4" className="border-0 mx-1 py-5 ps-5 pe-4 card ">
                 <i className="fa-solid fa-quote-left blue-quote mt-5"></i>
                 <div className="card-text">
                   <p className="lh-lg text-black fw-bold text-opacity-75 mb-4">

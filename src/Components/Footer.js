@@ -10,7 +10,8 @@ const Footer = () => {
 
         }
         .fa-brands {
-          transition: .3s ease-out all;          
+          transition: .3s ease-out all;  
+          cursor: pointer;        
         }
         .fa-brands:hover {
           transform: scale(1.5);                    
@@ -30,7 +31,7 @@ const Footer = () => {
         `}
       </style>
       <footer
-        className="container-fluid px-3 foot py-5 p-lg-5 position-relative logo text-white"
+        className="container-fluid px-3 foot py-5 p-lg-5 position-relative text-white"
         style={{
           background: "#00832d",
           fontFamily: "Inter, sans-serif",
@@ -42,7 +43,7 @@ const Footer = () => {
 
             <div className="col-10">
               <div className="col ms-0 ps-0 border-bottom pb-4 border-light">
-                <h2 className="fw-bold display-5 logo text-white">Tlancer</h2>
+                <h2 className="fw-bold display-5 text-white">Tlancer</h2>
                 <p className="h6 lh-base fw-normal">
                   Design amazing digital experiences that create more happy in
                   the world.
