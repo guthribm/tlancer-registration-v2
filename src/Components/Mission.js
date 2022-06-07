@@ -6,7 +6,7 @@ const Mission = () => {
             
             #mission p {
               font-weight: 400;
-                font-family: 'Inter', san-serif;
+              font-family: 'Inter', san-serif;
             }
 
             

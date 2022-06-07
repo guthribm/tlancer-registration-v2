@@ -6,7 +6,7 @@ const ContactUs = () => {
         
         .map {
           border: 2px solid var(--main-green);
-          border-radius: 16px
+          border-radius: 16px;
         }
 
     `}</style>

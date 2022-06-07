@@ -7,7 +7,6 @@ const Student = (props) => {
   const [isLoading, setIsLoading] = useState(false);
 
   function studentHandler() {
-    console.log("student button clicked");
     document.getElementById("student-signup-btn").style.display = "none";
     document.getElementById("student-form").style.display = "flex";
   }
@@ -21,7 +20,6 @@ const Student = (props) => {
 
   const formHandler = async (e) => {
     e.preventDefault();
-    console.log("form handler student ran");
     const firstName = document.getElementById("first-name-student");
     const surName = document.getElementById("last-name-student");
     const email = document.getElementById("email-student");
@@ -59,29 +57,18 @@ const Student = (props) => {
     }
   };
 
-  // useEffect(() => {}, []);
-
   return (
     <>
       <style type="text/css">{`
-            
-
-            
             #student-form {
               position: relative;                     
               display: none;
             }
-                        
-           
             #student-signup-btn {
                 letter-spacing: .8px;
                 border: none;
                 outline: none;
             }
-            
-
-              
-           
             `}</style>
 
       <Modal

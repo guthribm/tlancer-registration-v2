@@ -7,7 +7,6 @@ const Tutor = (props) => {
   const [tutorIsLoading, setTutorIsLoading] = useState(false);
 
   function tutorHandler() {
-    console.log("tutor button clicked");
     document.getElementById("tutor-signup-btn").style.display = "none";
     document.getElementById("tutor-form").style.display = "flex";
   }
@@ -21,7 +20,6 @@ const Tutor = (props) => {
 
   const tutorFormHandler = async (e) => {
     e.preventDefault();
-    console.log("form handler tutor ran");
     const firstName = document.getElementById("first-name-tutor");
     const surName = document.getElementById("last-name-tutor");
     const email = document.getElementById("email-tutor");

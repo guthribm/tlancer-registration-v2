@@ -3,8 +3,6 @@ const Footer = () => {
     <>
       <style type="text/css">
         {`
-       
-        
         .fa-brands {
           transition: .3s ease-out all;  
           cursor: pointer;        
@@ -12,18 +10,6 @@ const Footer = () => {
         .fa-brands:hover {
           transform: scale(1.5);                    
         }
-        .social-icons .col {
-          text-align: center;
-        }
-
-        @media (min-width: 768px) {
-          .social-icons .col {
-            margin: 0;
-        }
-        }
-        
-        
-        
         `}
       </style>
       <footer
@@ -38,7 +24,7 @@ const Footer = () => {
             <div className="col-1"></div>
 
             <div className="col-10">
-              <div className="col ms-0 ps-0 border-bottom pb-4 border-light">
+              <div className="col ms-0 ps-0 border-bottom border-light">
                 <h2 className="fw-bold display-5 text-white">Tlancer</h2>
                 <p className="h6 lh-base fw-normal">
                   Design amazing digital experiences that create more happy in
@@ -52,7 +38,7 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-2"></div>
                 <div className="col-lg-5">
-                  <div className="row social-icons my-auto">
+                  <div className="row social-icons text-end my-auto">
                     <div className="col">
                       <i className="fa-brands fa-twitter h2"></i>
                     </div>

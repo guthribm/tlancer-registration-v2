@@ -91,7 +91,7 @@ const NavbarMain = () => {
               border-bottom: 3px solid var(--main-green);
               box-shadow: 0px 0px 30px rgba(0,0,0,0.3);  
               background: rgba(255,255,255,1);                 
-              z-index: 100!important;
+              z-index: 1000;
             }   
                      
             
