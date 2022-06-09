@@ -1,4 +1,4 @@
-import heroImg from "../images/hero-img.webp";
+import heroImg from "../images/hero-img.png";
 import vector from "../images/smallVector.svg";
 const Hero = () => {
   return (
@@ -34,17 +34,18 @@ const Hero = () => {
           className="container-fluid d-flex flex-column flex-md-row align-items-start text-center text-md-start pt-5 mb-lg-5 px-2 mx-0 mt-5"
         >
           <div className="col-lg-1"></div>
-          <div className="col-md-6 col-lg-5 px-md-5 px-lg-0 pe-xl-5 mb-0 py-5 my-xl-5 text-xl-start">
-            <h1 className="display-3 display-md-1 fw-bold lh-base pe-xl-5">
-              Learn from <br /> certified and experienced tutors
+          <div className="col-md-6 col-lg-5 px-lg-0 mb-0 py-5 my-xl-5 text-xl-start">
+            <h1 className="display-5 display-md-1 fw-bold lh-base">
+              {/* Learn from <br /> certified and experienced tutors */}
+              ისწავლე გამოცდილი მასწავლებლებისგან
             </h1>
             <p className="h4 fw-normal my-5 pb-2">
-              Learn any course at your own pace here from world class tutors
-              Welcome to Tlancer where you can learn thousands of courses at
-              your own pace here from the best tutors across the world
+              დაუკავშირდი მასწავლებლებს და ციფრულად მართე სწავლის პროცესი
+              ჩვენთან ერთად
             </p>
+            {/* Get Started */}
             <a href="#student-target" className="btn px-5 btn-lg">
-              Get Started
+              დაიწყე
             </a>
           </div>
 
