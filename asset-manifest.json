@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tlancer-registration-v2/static/css/main.339829f4.css",
-    "main.js": "/tlancer-registration-v2/static/js/main.ee839932.js",
+    "main.css": "/tlancer-registration-v2/static/css/main.78269c95.css",
+    "main.js": "/tlancer-registration-v2/static/js/main.e8221f7a.js",
     "static/media/student-img.png": "/tlancer-registration-v2/static/media/student-img.89b7cee0e36473e8ef6b.png",
     "static/media/instructor.png": "/tlancer-registration-v2/static/media/instructor.87f581e5cfb404163b42.png",
     "static/media/blueSuitMan.png": "/tlancer-registration-v2/static/media/blueSuitMan.edc754520adb53973132.png",
@@ -13,11 +13,11 @@
     "static/media/tbcBank.webp": "/tlancer-registration-v2/static/media/tbcBank.1382dce8f2734b364b94.webp",
     "index.html": "/tlancer-registration-v2/index.html",
     "static/media/smallVector.svg": "/tlancer-registration-v2/static/media/smallVector.b0047b9ddc1c1a88acedd213cf2e1891.svg",
-    "main.339829f4.css.map": "/tlancer-registration-v2/static/css/main.339829f4.css.map",
-    "main.ee839932.js.map": "/tlancer-registration-v2/static/js/main.ee839932.js.map"
+    "main.78269c95.css.map": "/tlancer-registration-v2/static/css/main.78269c95.css.map",
+    "main.e8221f7a.js.map": "/tlancer-registration-v2/static/js/main.e8221f7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.339829f4.css",
-    "static/js/main.ee839932.js"
+    "static/css/main.78269c95.css",
+    "static/js/main.e8221f7a.js"
   ]
 }
