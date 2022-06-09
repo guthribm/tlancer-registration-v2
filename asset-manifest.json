@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/tlancer-registration-v2/static/css/main.8b119416.css",
-    "main.js": "/tlancer-registration-v2/static/js/main.4ca77d74.js",
+    "main.js": "/tlancer-registration-v2/static/js/main.9c37d602.js",
     "static/media/student-img.webp": "/tlancer-registration-v2/static/media/student-img.458fcac560c6f2e67c22.webp",
     "static/media/instructor.webp": "/tlancer-registration-v2/static/media/instructor.11d3d7f15156e394c4ec.webp",
-    "static/media/contact-img.webp": "/tlancer-registration-v2/static/media/contact-img.fadd89d5b2a4719bbb26.webp",
     "static/media/blueSuitMan.webp": "/tlancer-registration-v2/static/media/blueSuitMan.604def3426f8dde022dc.webp",
     "static/media/hero-img.webp": "/tlancer-registration-v2/static/media/hero-img.fea689db77f7c7491924.webp",
     "static/media/manHoldingRedFolder.webp": "/tlancer-registration-v2/static/media/manHoldingRedFolder.b3b120d0fde8fcc844b1.webp",
+    "static/media/techLink.webp": "/tlancer-registration-v2/static/media/techLink.7f1c9a066b9be40414ce.webp",
+    "static/media/bankOfGeorgia.webp": "/tlancer-registration-v2/static/media/bankOfGeorgia.ca9a76d90ca54f6c9512.webp",
+    "static/media/MicrosoftLogo.webp": "/tlancer-registration-v2/static/media/MicrosoftLogo.a6e473be3a1b783076ba.webp",
+    "static/media/tbcBank.webp": "/tlancer-registration-v2/static/media/tbcBank.1382dce8f2734b364b94.webp",
     "index.html": "/tlancer-registration-v2/index.html",
-    "static/media/smallVector.svg": "/tlancer-registration-v2/static/media/smallVector.557040b35aceb7f0462163c194788355.svg",
+    "static/media/smallVector.svg": "/tlancer-registration-v2/static/media/smallVector.b0047b9ddc1c1a88acedd213cf2e1891.svg",
     "main.8b119416.css.map": "/tlancer-registration-v2/static/css/main.8b119416.css.map",
-    "main.4ca77d74.js.map": "/tlancer-registration-v2/static/js/main.4ca77d74.js.map"
+    "main.9c37d602.js.map": "/tlancer-registration-v2/static/js/main.9c37d602.js.map"
   },
   "entrypoints": [
     "static/css/main.8b119416.css",
-    "static/js/main.4ca77d74.js"
+    "static/js/main.9c37d602.js"
   ]
 }
